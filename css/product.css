@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.section-tabac {
+  background: white;
+  background-size: cover;
+}
+.section-eat {
+  background: white;
+  background-size: cover;
+}
+.btns {
+  border: none;
+  border-radius: 2px;
+  background-color: white;
+  padding: 5px 12px;
+  margin: 10px 5px;
+  cursor: pointer;
+  background-color: #e8eaf6;
+}
+
+#initiale {
+  color: white;
+}
+
+.totals {
+  font-family: Poppins;
+  color: #03a9f4;
+  margin: 40px 0px;
+  padding-top: 50px;
+}
+
+.totl,
+.totlq {
+  color: #9f9f9f;
+}
+
+.despromo {
+  padding: 10px;
+  font-family: Poppins;
+}
+
+.inner-product {
+  background: white;
+  box-shadow: 0 0 30px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.imge {
+  height: 250px;
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.overlay {
+  position: absolute;
+  transition: all 0.3s ease;
+  opacity: 0;
+  background-color: rgb(8, 9, 26);
+}
+
+.options {
+  position: relative;
+  background: white;
+  border-radius: 0 0 10px 10px;
+  padding: 10px;
+  margin-top: -8px;
+  border-top: 1px solid #ff7979;
+  border-bottom: 3px solid #dfdfdf;
+}
+
+.options .name {
+  text-transform: capitalize;
+  font-size: 24px;
+  color: #ff7979;
+  text-shadow: 0px 0px 3px;
+}
+
+.options .price {
+  font-size: 23px;
+  margin-left: 20px;
+  background: rgb(255 121 121);
+  color: white;
+  padding: 2px 15px;
+  border-radius: 5px;
+  position: absolute;
+  top: -18px;
+  right: 10px;
+  box-shadow: 0 0 23px 2px rgb(255 121 121);
+}
+
+.despromo:hover .overlay {
+  opacity: 1;
+  border-radius: 4px;
+  width: 200px;
+  height: 150px;
+  border: none;
+}
+
+.text {
+  color: red;
+  font-size: 25px;
+}
+
+.overlayLeft {
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: auto;
+}
+
+.copy {
+  text-align: center;
+  font-size: 20px;
+}
+.cites {
+  text-align: center;
+  font-size: 40px;
+}
+
+.titre-objects {
+  font-family: "Bahianita", cursive;
+  font-size: 30px;
+}
+.to {
+  font-family: cursive;
+  padding-top: 0;
+  padding-left: 0;
+}
+.objects {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.objects ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  opacity: 0.5;
+  cursor: pointer;
+}
+li:hover {
+  opacity: 1;
+}
